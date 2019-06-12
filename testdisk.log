@@ -1,0 +1,48 @@
+
+
+Tue May 21 15:50:35 2019
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.15.0-50-generic (#54-Ubuntu SMP Mon May 6 18:46:08 UTC 2019) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       1953525168 sectors
+/dev/sda: user_max   1953525168 sectors
+/dev/sda: native_max 1953525168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - ST1000DM010-2EP102, S/N:Z9ASWD3X, FW:CC43
+
+Partition table type (auto): Intel
+Disk /dev/sda - 1000 GB / 931 GiB - ST1000DM010-2EP102
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 121601  80 63 1953525168
+Change partition type:
+   P ext4                     0   0  1 121601  80 63 1953525168
+search_superblock
+search_superblock
+search_superblock
+
+   P ext4                     0   0  1 121601  80 63 1953525168
+Can't open filesystem. Filesystem seems damaged.
+Partition table type (auto): Intel
+Disk /dev/sda - 1000 GB / 931 GiB - ST1000DM010-2EP102
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 121601  80 63 1953525168
+Change partition type:
+   P Unknown                  0   0  1 121601  80 63 1953525168
+Change partition type:
+   P Unknown                  0   0  1 121601  80 63 1953525168
+Change partition type:
+   P Unknown                  0   0  1 121601  80 63 1953525168
+Partition table type (auto): Intel
+
+TestDisk exited normally.
